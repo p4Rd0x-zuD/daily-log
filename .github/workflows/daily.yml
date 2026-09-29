@@ -1,0 +1,48 @@
+name: daily log
+
+on:
+  schedule:
+    - cron: '27 13 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-log
+  cancel-in-progress: false
+
+jobs:
+  farm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Farm 1-5 entradas
+        run: |
+          set -e
+          git config user.name "p4Rd0x-zuD"
+          git config user.email "202685342+p4Rd0x-zuD@users.noreply.github.com"
+          N=$((RANDOM % 5 + 1))
+          echo "Entradas hoy: $N"
+          MSGS=("docs: TIL del día" "log: nota diaria" "docs: aprendido hoy" "chore: bitácora diaria" "docs: micro-sesión")
+          for i in $(seq 1 $N); do
+            python3 farm.py --slot $i
+            git add -A
+            if ! git diff --cached --quiet; then
+              M=${MSGS[$RANDOM % ${#MSGS[@]}]}
+              git commit -m "$M ($i/$N)"
+              echo "commit $i/$N: $M"
+            else
+              echo "sin cambios en slot $i, skip"
+            fi
+            sleep $((RANDOM % 60 + 10))
+          done
+          git pull --rebase origin main || true
+          git push origin HEAD:main
