@@ -123,3 +123,4 @@
 2026-11-08 13:24 | JSON: jq para filtrar (slot 1)
 2026-11-09 18:02 | Terminal: Historial y atajos (slot 1)
 2026-11-09 18:02 | SQL: GROUP BY + HAVING (slot 2)
+2026-11-09 18:04 | GitHub Actions: Cache de pip (slot 3)
