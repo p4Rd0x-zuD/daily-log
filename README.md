@@ -2,7 +2,7 @@
 
 Bitácora diaria de aprendizaje. Notas cortas en español: qué aprendí, snippet y tip.
 
-Última actualización: 2026-11-20 16:21 (Bogotá)
+Última actualización: 2026-11-20 16:22 (Bogotá)
 
 | Fecha | Archivo |
 |---|---|
