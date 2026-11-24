@@ -167,3 +167,4 @@
 2026-11-23 20:03 | GitHub Actions: Cache de pip (slot 2)
 2026-11-23 20:04 | API: Leer docs con curl (slot 3)
 2026-11-24 18:07 | Backend: Variables de entorno (slot 1)
+2026-11-24 18:08 | Docker: Capas y cache de build (slot 2)
