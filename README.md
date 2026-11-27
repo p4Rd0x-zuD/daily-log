@@ -2,10 +2,11 @@
 
 Bitácora diaria de aprendizaje. Notas cortas en español: qué aprendí, snippet y tip.
 
-Última actualización: 2026-11-26 17:28 (Bogotá)
+Última actualización: 2026-11-27 17:09 (Bogotá)
 
 | Fecha | Archivo |
 |---|---|
+| 2026-11-27 | [daily-log/2026-11-27.md](daily-log/2026-11-27.md) |
 | 2026-11-26 | [daily-log/2026-11-26.md](daily-log/2026-11-26.md) |
 | 2026-11-25 | [daily-log/2026-11-25.md](daily-log/2026-11-25.md) |
 | 2026-11-24 | [daily-log/2026-11-24.md](daily-log/2026-11-24.md) |
@@ -19,7 +20,6 @@ Bitácora diaria de aprendizaje. Notas cortas en español: qué aprendí, snippe
 | 2026-11-16 | [daily-log/2026-11-16.md](daily-log/2026-11-16.md) |
 | 2026-11-15 | [daily-log/2026-11-15.md](daily-log/2026-11-15.md) |
 | 2026-11-14 | [daily-log/2026-11-14.md](daily-log/2026-11-14.md) |
-| 2026-11-13 | [daily-log/2026-11-13.md](daily-log/2026-11-13.md) |
 
 ## Cómo funciona
 
